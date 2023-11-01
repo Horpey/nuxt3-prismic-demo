@@ -1,12 +1,7 @@
 import { appDescription } from './constants/index'
 
 export default defineNuxtConfig({
-  modules: [
-    '@vueuse/nuxt',
-    '@unocss/nuxt',
-    '@pinia/nuxt',
-    '@nuxtjs/color-mode',
-  ],
+  modules: ['@vueuse/nuxt', '@unocss/nuxt', '@pinia/nuxt', '@nuxtjs/color-mode', '@nuxtjs/prismic'],
 
   experimental: {
     // when using generate, payload js assets included in sw precache manifest
@@ -56,5 +51,9 @@ export default defineNuxtConfig({
 
   devtools: {
     enabled: true,
+  },
+
+  prismic: {
+    endpoint: 'seamlesshr-cms',
   },
 })
