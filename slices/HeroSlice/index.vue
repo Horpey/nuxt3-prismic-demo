@@ -13,5 +13,7 @@ defineProps<Props>()
       {{ slice.primary.heading }}
     </h2>
     <PrismicRichText :field="slice.primary.description" class="mt-2 text-xs leading-8 text-gray-600" />
+
+    <PrismicImage v-if="slice.primary.banner" :field="slice.primary.banner" class="h-auto w-full rounded-md bg-gray-50" />
   </section>
 </template>

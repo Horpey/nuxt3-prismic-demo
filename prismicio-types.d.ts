@@ -223,6 +223,16 @@ export interface HeroSliceSliceDefaultPrimary {
    * - **Documentation**: https://prismic.io/docs/field#rich-text-title
    */
   description: prismic.RichTextField;
+
+  /**
+   * Banner field in *HeroSlice → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_slice.primary.banner
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  banner: prismic.ImageField<never>;
 }
 
 /**

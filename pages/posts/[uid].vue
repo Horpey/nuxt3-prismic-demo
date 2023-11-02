@@ -66,6 +66,10 @@ const pageData = computed(() => page.value?.data?.slices[0]?.primary)
 
                     <PrismicRichText :field="pageData?.description" class="mt-10 text-lg leading-9" />
                 </div>
+
+                <pre>
+                    {{ pageData }}
+                </pre>
             </div>
         </div>
     </div>

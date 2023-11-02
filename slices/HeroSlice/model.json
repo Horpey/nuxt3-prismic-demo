@@ -27,6 +27,14 @@
             "allowTargetBlank": false,
             "single": "paragraph,strong,em"
           }
+        },
+        "banner": {
+          "type": "Image",
+          "config": {
+            "label": "Banner",
+            "constraint": {},
+            "thumbnails": []
+          }
         }
       },
       "items": {}
