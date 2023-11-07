@@ -2,6 +2,9 @@
   "type": "module",
   "private": true,
   "packageManager": "pnpm@8.9.2",
+  "author": {
+    "name": "Opeyemi Adeniran"
+  },
   "scripts": {
     "build": "nuxi build",
     "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
